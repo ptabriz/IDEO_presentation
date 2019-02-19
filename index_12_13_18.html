@@ -1,0 +1,1364 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+
+        <title>Meeting with Alex 12.3.18</title>
+
+        <meta name="description" content="IDEO meeting slides">
+        <meta name="author" content="Payam Tabrizian">
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="css/theme/payam_grey.css" id="theme">
+        <link rel="stylesheet" href="./css/style.css">
+
+        <!-- For syntax highlighting -->
+        <link rel="stylesheet" href="lib/css/zenburn.css">
+
+        <!-- For chalkboard plugin -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+    </style><style type="text/css">.MJXp-script {font-size: .8em}
+      .MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+      .MJXp-bold {font-weight: bold}
+      .MJXp-italic {font-style: italic}
+      .MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+      .MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+      .MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+      .MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+      .MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+      .MJXp-largeop {font-size: 150%}
+      .MJXp-largeop.MJXp-int {vertical-align: -.2em}
+      .MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+      .MJXp-display {display: block; text-align: center; margin: 1em 0}
+      .MJXp-math span {display: inline-block}
+      .MJXp-box {display: block!important; text-align: center}
+      .MJXp-box:after {content: " "}
+      .MJXp-rule {display: block!important; margin-top: .1em}
+      .MJXp-char {display: block!important}
+      .MJXp-mo {margin: 0 .15em}
+      .MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+      .MJXp-denom {display: inline-table!important; width: 100%}
+      .MJXp-denom > * {display: table-row!important}
+      .MJXp-surd {vertical-align: top}
+      .MJXp-surd > * {display: block!important}
+      .MJXp-script-box > *  {display: table!important; height: 50%}
+      .MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+      .MJXp-script-box > *:last-child > * {vertical-align: bottom}
+      .MJXp-script-box > * > * > * {display: block!important}
+      .MJXp-mphantom {visibility: hidden}
+      .MJXp-munderover {display: inline-table!important}
+      .MJXp-over {display: inline-block!important; text-align: center}
+      .MJXp-over > * {display: block!important}
+      .MJXp-munderover > * {display: table-row!important}
+      .MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+      .MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+      .MJXp-mtr {display: table-row!important}
+      .MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+      .MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+      .MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+      .MJXp-mlabeledtr {display: table-row!important}
+      .MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+      .MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+      .MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+      .MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+      .MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+      .MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+      .MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+      .MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+      .MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+      .MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+      .MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+      .MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+      .MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+      .MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+      </style><style type="text/css">.MathJax_Display {text-align: center; margin: 1em 0em; position: relative; display: block!important; text-indent: 0; max-width: none; max-height: none; min-width: 0; min-height: 0; width: 100%}
+      .MathJax .merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+      .MathJax .MJX-monospace {font-family: monospace}
+      .MathJax .MJX-sans-serif {font-family: sans-serif}
+      #MathJax_Tooltip {background-color: InfoBackground; color: InfoText; border: 1px solid black; box-shadow: 2px 2px 5px #AAAAAA; -webkit-box-shadow: 2px 2px 5px #AAAAAA; -moz-box-shadow: 2px 2px 5px #AAAAAA; -khtml-box-shadow: 2px 2px 5px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true'); padding: 3px 4px; z-index: 401; position: absolute; left: 0; top: 0; width: auto; height: auto; display: none}
+      .MathJax {display: inline; font-style: normal; font-weight: normal; line-height: normal; font-size: 100%; font-size-adjust: none; text-indent: 0; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; padding: 0; margin: 0}
+      .MathJax:focus, body :focus .MathJax {display: inline-table}
+      .MathJax.MathJax_FullWidth {text-align: center; display: table-cell!important; width: 10000em!important}
+      .MathJax img, .MathJax nobr, .MathJax a {border: 0; padding: 0; margin: 0; max-width: none; max-height: none; min-width: 0; min-height: 0; vertical-align: 0; line-height: normal; text-decoration: none}
+      img.MathJax_strut {border: 0!important; padding: 0!important; margin: 0!important; vertical-align: 0!important}
+      .MathJax span {display: inline; position: static; border: 0; padding: 0; margin: 0; vertical-align: 0; line-height: normal; text-decoration: none}
+      .MathJax nobr {white-space: nowrap!important}
+      .MathJax img {display: inline!important; float: none!important}
+      .MathJax * {transition: none; -webkit-transition: none; -moz-transition: none; -ms-transition: none; -o-transition: none}
+      .MathJax_Processing {visibility: hidden; position: fixed; width: 0; height: 0; overflow: hidden}
+      .MathJax_Processed {display: none!important}
+      .MathJax_ExBox {display: block!important; overflow: hidden; width: 1px; height: 60ex; min-height: 0; max-height: none}
+      .MathJax .MathJax_EmBox {display: block!important; overflow: hidden; width: 1px; height: 60em; min-height: 0; max-height: none}
+      .MathJax_LineBox {display: table!important}
+      .MathJax_LineBox span {display: table-cell!important; width: 10000em!important; min-width: 0; max-width: none; padding: 0; border: 0; margin: 0}
+      .MathJax .MathJax_HitBox {cursor: text; background: white; opacity: 0; filter: alpha(opacity=0)}
+      .MathJax .MathJax_HitBox * {filter: none; opacity: 1; background: transparent}
+      #MathJax_Tooltip * {filter: none; opacity: 1; background: transparent}
+      @font-face {font-family: MathJax_Main; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/fonts/HTML-CSS/TeX/woff/MathJax_Main-Regular.woff?V=2.7.0') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/fonts/HTML-CSS/TeX/otf/MathJax_Main-Regular.otf?V=2.7.0') format('opentype')}
+      @font-face {font-family: MathJax_Main-bold; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/fonts/HTML-CSS/TeX/woff/MathJax_Main-Bold.woff?V=2.7.0') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/fonts/HTML-CSS/TeX/otf/MathJax_Main-Bold.otf?V=2.7.0') format('opentype')}
+      @font-face {font-family: MathJax_Main-italic; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/fonts/HTML-CSS/TeX/woff/MathJax_Main-Italic.woff?V=2.7.0') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/fonts/HTML-CSS/TeX/otf/MathJax_Main-Italic.otf?V=2.7.0') format('opentype')}
+      @font-face {font-family: MathJax_Math-italic; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/fonts/HTML-CSS/TeX/woff/MathJax_Math-Italic.woff?V=2.7.0') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/fonts/HTML-CSS/TeX/otf/MathJax_Math-Italic.otf?V=2.7.0') format('opentype')}
+      @font-face {font-family: MathJax_Caligraphic; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/fonts/HTML-CSS/TeX/woff/MathJax_Caligraphic-Regular.woff?V=2.7.0') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Regular.otf?V=2.7.0') format('opentype')}
+      @font-face {font-family: MathJax_Size1; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/fonts/HTML-CSS/TeX/woff/MathJax_Size1-Regular.woff?V=2.7.0') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/fonts/HTML-CSS/TeX/otf/MathJax_Size1-Regular.otf?V=2.7.0') format('opentype')}
+      @font-face {font-family: MathJax_Size2; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/fonts/HTML-CSS/TeX/woff/MathJax_Size2-Regular.woff?V=2.7.0') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/fonts/HTML-CSS/TeX/otf/MathJax_Size2-Regular.otf?V=2.7.0') format('opentype')}
+      @font-face {font-family: MathJax_Size3; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/fonts/HTML-CSS/TeX/woff/MathJax_Size3-Regular.woff?V=2.7.0') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/fonts/HTML-CSS/TeX/otf/MathJax_Size3-Regular.otf?V=2.7.0') format('opentype')}
+      @font-face {font-family: MathJax_Size4; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/fonts/HTML-CSS/TeX/woff/MathJax_Size4-Regular.woff?V=2.7.0') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/fonts/HTML-CSS/TeX/otf/MathJax_Size4-Regular.otf?V=2.7.0') format('opentype')}
+      .MathJax .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+      </style><style type="text/css">@font-face {font-family: MathJax_AMS; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/fonts/HTML-CSS/TeX/woff/MathJax_AMS-Regular.woff?V=2.7.0') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/fonts/HTML-CSS/TeX/otf/MathJax_AMS-Regular.otf?V=2.7.0') format('opentype')}
+      </style></head><body><div style="visibility: hidden; overflow: hidden; position: absolute; top: 0px; height: 1px; width: auto; padding: 0px; border: 0px; margin: 0px; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal;">
+        <div id="MathJax_Hidden"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div></div><div id="MathJax_Message" style="display: none;"></div>.
+        <header style="position: absolute;top: 50px; z-index:500; font-size:100px;background-color: rgba(0,0,0,0.5)"></header>
+
+        <style type="text/css">
+
+          html.dimbg_095 .slide-background.present {
+            opacity: 0.95 !important;
+          }
+          html.dimbg_08 .slide-background.present {
+            opacity: 0.8 !important;
+          }
+          html.dimbg_06 .slide-background.present {
+            opacity: 0.6 !important;
+          }
+          html.dimbg_05 .slide-background.present {
+            opacity: 0.5 !important;
+          }
+          html.dimbg_04 .slide-background.present {
+            opacity: 0.4 !important;
+          }
+          html.dimbg_03 .slide-background.present {
+            opacity: 0.2 !important;
+          }
+          html.dimbg_02 .slide-background.present {
+            opacity: 0.2 !important;
+          }
+          html.dimbg_01 .slide-background.present{
+            opacity: 0.1 !important;
+          }
+          .overl {
+            background-color:rgba(0,0,0,0.9);
+          }
+          .overlaybottom{
+            background-color:rgba(0,0,0,0.9);
+            margin-bottom: 20% !important;
+          }
+          .overlaytop{
+            background-color:rgba(0,0,0,0.9);
+            margin-top: 20% !important;
+          }
+          .overlayleft{
+            background-color:rgba(0,0,0,0.9);
+            margin-right: 50% !important;
+          }
+          .overlayright{
+            background-color:rgba(0,0,0,0.9);
+            margin-left: 50% !important;
+          }
+
+          .transp_bottom {
+              position:absolute;
+              left:0;
+              top: 350px;
+              background: rgba(0,0,0,.8);
+              height:1000px;
+              width: 100%;
+          }
+          .transp_top {
+              position:absolute;
+              left:0;
+              top: -600px;
+              background: rgba(0,0,0,.8);
+              height:600px;
+              width: 100%;
+          }
+
+        </style>
+
+        <!-- Printing and PDF exports -->
+        <script>
+          var link = document.createElement( 'link' );
+          link.rel = 'stylesheet';
+          link.type = 'text/css';
+          link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+          document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script>
+
+
+
+        <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+        <script>
+            if( window.location.search.match( /print-pdf/gi ) ) {
+                var link = document.createElement( 'link' );
+                link.rel = 'stylesheet';
+                link.type = 'text/css';
+                link.href = 'css/print/pdf.css';
+                document.getElementsByTagName( 'head' )[0].appendChild( link );
+            }
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+
+        <style>
+        body {
+        background-color: #FFF !important;*/
+
+        }
+        .reveal section img {
+            background: transparent;
+            border: 0;
+            box-shadow: 0 0 0 rgba(0, 0, 0, 0.15);
+        }
+        /* for standalone frame */
+        /*
+        iframe {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        */
+        /* display: inline; background-color: #002B36; padding: 0px; margin: 0px */
+        .rounded-corners {
+            border: 0px solid black;
+            border-radius: 5px;
+            -moz-border-radius: 5px;
+            -khtml-border-radius: 5px;
+            -webkit-border-radius: 5px;
+        }
+        a:hover {
+            color: #444 !important;
+            text-decoration: underline !important;
+        }
+        h1, h2, h3, h4, h5 {
+            text-transform: none !important;
+            /* word-break: keep-all; text-transform: none; font-size: 200%; line-height: 110%; */
+            /* color: #060 !important; */
+            /* color: #444 !important; */ /* grey from the wab page */
+            font-weight: bold !important;
+            -webkit-hyphens: none !important;
+            -moz-hyphens: none !important;
+            -ms-hyphens: none !important;
+            hyphens: none !important;
+            line-height: 110% !important;
+        }
+        .reveal .progress span {
+            background-color: #444 !important;
+        }
+        /* predefined element positioning */
+        .top {
+            /*position: relative;*/
+            top: 5%;
+            height: 45%; /* is the height even needed? */
+        }
+        .bottom {
+            height: 45%;
+        }
+        .ne {
+            position: absolute;
+            top: 5%;
+            right: 5%;
+            height: 45%;
+            width: 45%;
+        }
+        .nw {
+            position: absolute;
+            top: 5%;
+            left: 5%;
+            height: 45%;
+            width: 45%;
+        }
+        .se {
+            position: absolute;
+            bottom: 5%;
+            right: 5%;
+            height: 45%;
+            width: 45%;
+        }
+        .sw {
+            position: absolute;
+            bottom: 5%;
+            left: 5%;
+            height: 45%;
+            width: 45%;
+        }
+
+        /* classes for sections with predefined elements */
+        /* using !important because, reveal styles are applied afterwards  */
+        .right, .textimg > img, .textimg > video, .textimg > iframe, .imgtext > p, .imgtext > ul, .imgtext > ol, .imgtext > div {
+            float: right;
+            text-align: left;
+            max-width: 47% !important;
+        }
+        .left, .imgtext > img, .imgtext > video, imgtext > iframe, .textimg > p, .textimg > ul, .textimg > ol, .textimg > div {
+            float: left;
+            text-align: left;
+            max-width: 47% !important;
+        }
+        li > ul, li > ol {
+            font-size: 85% !important;
+            line-height: 110% !important;
+        }
+        .small {
+            font-size: smaller !important;
+            color: gray;
+            margin: 0.1em !important;
+        }
+        .credit {
+            font-size: small !important;
+            color: gray;
+            margin: 0.1em !important;
+        }
+        </style>
+    </head>
+
+    <body>
+
+
+      <div class="reveal">
+
+            <!-- Any section element inside of this container is displayed as a slide -->
+            <div class="slides">
+
+            <section >
+              <h2 style="color: #888">Payam Tabrizian | Meeting with Alex Grishaver | 12.3.18</h2>
+
+            </section>
+
+<section data-background= "img/intro_tech.jpg" data-background-size="95%">
+
+      <aside class="notes">
+    With geospatial computation technologies, we can develop an accurate model of the earth surface and rapidly simulate the
+    impact of our interventions on a wide range of environmental factors from flow of
+    water and pollution to spread of fire and pathogens and to flow of traffic and people.
+      </aside>
+</section>
+
+<section data-background= "img/intro_tech2.jpg" data-background-size="95%">
+
+      <aside class="notes">
+      With virtual reality, we can replicate “real world” experiences of existing landscapes and simulate lifelike scenarios for the imagined landscapes.
+
+      </aside>
+
+</section>
+
+<section data-background= "img/intro_tech3.jpg" data-background-size="95%">
+
+      <aside class="notes">
+      Advanced interaction technologies such as Tangible user interfaces, provide intuitive and inclusive access to these
+      highly specialized design and analysis tools. By doing so they break the knowledge barriers and disciplinary divides between designers,
+      scientists, and public allowing them to collaboratively design and decide about the future of their landscapes.
+      </aside>
+
+</section>
+
+<section data-background="
+https://github.com/ncsu-geoforall-lab/tangible-landscape-talk/raw/master/img/slider_1.jpg"
+data-background-size="100%">
+
+<h4 class="shadow">Tangible Landscape: Realtime 3D modeling and immersion with geospatial data and tangible interaction</h4>
+
+  <br/>
+  <br/>
+
+ <aside class="notes">
+
+ In the previous project, we discussed how objective analysis and subjective can be integrated
+ to advance landscape assessment.
+
+ The second method aims to integrate these aspects into the design process.
+ I start by decribing the motivation behind development.
+ </aside>
+
+</section>
+
+<!-- <section >
+  <h2 style="color: #888">Background</h2>
+<ul>
+  <li> B.A. Architecture
+  <li> M.S. Urban Design (<a href="https://issuu.com/payamtabrizian/docs/portofolio_optimized3_6b38adb4d1cde4"> portfolio </a>)
+  <li> PhD in Design and Geospatial anlaytics | Minor in Cognitive sciences
+    <ul>
+      <li> Interaction design: Tangible user interfaces | VR | 3Dweb interface
+      <li> User experience and perception research (mental well-being)
+      <li> geospatial computation and simulations
+      <li> VR Developement, front-end design
+    </ul>
+   </ul>
+
+</section> -->
+
+<!-- <section data-background="img/portfolio.png" data-background-size="90%"></section>
+<section data-background="img/portfolio4.png" data-background-size="90%"></section>
+<section data-background="img/portfolio5.png" data-background-size="90%"></section>
+ -->
+
+
+<!-- TL -->
+<!-- Tangible Landscape -->
+<!--
+<section data-background-image="" data-background-size="100%" >
+<img height="300px" src="img/logos/tl_logo.png">
+<br>
+<p><small><i class="fa fa-github">&nbsp;&nbsp;</i><a href=" https://github.com/tangible-landscape">https://github.com/tangible-landscape</a></small></p>
+<p><small> Powered by <i class="fa fa-creative-commons" aria-hidden="true"></i> <a href="">GRASS GIS</a> and <a href="">Blender</a></small></p> -->
+
+
+<!--<p><small>Source: <i class="fa fa-creative-commons" aria-hidden="true"></i> <a href="https://tangible-landscape.github.io">NCSU GeoForAll Lab</a></small></p>-->
+</section>
+
+
+<section data-background="white">
+<h3> Aim </h3>
+
+<ul>
+  <li> Develop an easy-to-use collaborative design tool that enables simultaneous
+       assessment of experiential and spatial analysis in the iterative design process
+</ul>
+
+<aside  class="notes">
+ To address these limitations, I sought to develop a method that
+ enables more intuitive interaction with design phenomenon and
+ simultaneous spatial and experiential analysis in each iteration of design.
+
+ I also aimed to test the method's functionality in a landscape design case-study.
+ While this methods is applicable to other design applications,
+ I chose landscape design study becasue it involves a good deal of ecological and aesthetic trade-offs.
+
+ <section data-transition="fade-in">
+ <h3> Hardware setup </h3>
+ <img  style = "width:40%" src="img/setup_2.jpg">
+
+ <aside class="notes">
+   I added a 3D modeling and game engine software,
+   called blender with outputs to a computer display and an
+   immersive virtual reality headset.
+   Blender is a free and open source program for modeling, rendering, simulation, animation, and game design.
+   Blender was perfectly suited to this application because it is has an internal python scripting environment for automating
+   3D modeling procedures and more importantly, it has addons for importing GIS data. It also has a very efficient and realistic real time rendering
+   capabilities with output for head mounted displays.
+
+ </aside>
+
+ </section>
+
+</aside>
+
+</section>
+
+<section data-background="white">
+<h3> Approach </h3>
+<img class="stretch" src="img/coupling_concept.jpg">
+
+  <aside  class="notes">
+    My developed approach combines geospatial computation, tangible interaction and 3D visulization.
+    Thanks to Tangible landscape system, Realtime linkage between Tangible interaction
+    and geospatial analysis has been already enabled. My developed addition links
+    geospatial analysis with 3D modeling and rendering so that design scenarios can be
+   rendered into perspective views and immersive scenes, in real time.
+
+  </aside>
+
+</section>
+
+
+<section data-background="white">
+
+     <h2 style="color: #888"> Digital fabrication </h2>
+       <p style="float: left; font-size: 20pt; text-align: center; width: 31%; margin-left: 5%; ">
+         <img src="img/3d_print_1.jpg" style="width: 100%">
+         <small></small>
+</p>
+      <p style="float: left; font-size: 20pt; text-align: center; width: 31%; margin-right:.5%;">
+         <img src="img/3d_print_2.jpg" style="width: 100%">
+         <small>3D printed landscape models</small>
+</p>
+
+      <p style="float: left; font-size: 20pt; text-align: center; width: 31%; margin-right:.5%;">
+         <img src="img/3d_print_3.jpg" style="width: 100%">
+         <small></small>
+      </p>
+
+      <p style="float: left; font-size: 20pt; text-align: center; width: 33%; margin-left:5%; margin-bottom: 0.5em;">
+         <img src="img/cnc_router.jpg" style="width: 100%">
+         <small></small>
+        </p>
+
+      <p style="float: left; font-size: 20pt; text-align: center; width: 30%; margin-right:.5%; margin-bottom: 0.5em;">
+         <img src="img/cnc_1_s.jpg" style="width: 100%">
+         <small>CNC routed landscape models</small>
+        </p>
+
+        <p style="float: left; font-size: 20pt; text-align: center; width: 31%; margin-top:3%; margin-bottom: 0.5em;">
+           <img src="img/sonoma_03_s.jpg" style="width: 100%">
+           <small></small>
+          </p>
+</section>
+
+<section data-background="white">
+     <h2 style="color: #888"> Interaction design</h2>
+       <p style="float: left; font-size: 20pt; text-align: center; width: 33%; margin-left: 18%; ">
+         <img src="img/markers.jpg" style="width: 100%">
+         <small>Wooden objects</small>
+</p>
+      <p style="float: left; font-size: 20pt; text-align: center; width: 33%; margin-right:.5%;">
+         <img src="img/felt.jpg" style="width: 100%">
+         <small>Colored textile</small>
+</p>
+
+      <p style="float: left; font-size: 20pt; text-align: center; width: 32.7%; margin-left:18%; margin-bottom: 0.5em;">
+         <img src="img/marker_direction.jpg" style="width: 100%">
+         <small>Colored objects</small>
+        </p>
+
+      <p style="float: left; font-size: 20pt; text-align: center; width: 33.5%; margin-right:.5%; margin-bottom: 0.5em;">
+         <img src="img/marker_02_cs.jpg" style="width: 100%">
+         <small>Metal coating</small>
+        </p>
+</section>
+
+
+
+<section data-background="white">
+
+     <h2 style="color: #888">Hardware setup</h2>
+       <p style="float: left; font-size: 20pt; text-align: center; width: 80%; margin-right: .5%; margin-bottom: 0.5em;">
+         <img src="img/New_setup.png" style="width: 100%">
+         <p><small>Hardware setup </i> <a href="https://github.com/ptabriz/3D_immersion_TL"> github page</a></small></p>
+</p>
+</section>
+
+
+<section data-background="white">
+
+     <h2 style="color: #888"> Features </h2>
+<ul>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <video class = "stretch" width = "80%" data-autoplay src="img/water.mp4" frameborder="0" loop="loop" width="100%">
+</ul>
+      <p style="font-size:16pt;">Sculpting the landscape<p>
+
+</section>
+
+<section data-background="white">
+
+     <h2 style="color: #888"> Features </h2>
+<ul>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <video class = "stretch" width = "80%" data-autoplay src="img/plants.mp4" frameborder="0" loop="loop" width="100%">
+</ul>
+
+      <p style="font-size:16pt;">Designing patch-type objects<p>
+
+</section>
+
+<section data-background="white">
+
+     <h2 style="color: #888"> Features </h2>
+<ul>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <video class = "stretch" width = "80%" data-autoplay src="img/trail.mp4" frameborder="0" loop="loop" width="100%">
+</ul>
+
+      <p style="font-size:16pt;"> Designing linear features </p>
+
+</section>
+
+<section data-background="white">
+
+     <h2 style="color: #888"> Features </h2>
+<ul>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <video class = "stretch" width = "80%" data-autoplay src="img/camera.mp4" frameborder="0" loop="loop" width="100%">
+</ul>
+
+      <p style="font-size:16pt;">Controlling Camera<p>
+
+</section>
+
+<section data-background="white">
+     <h2 style="color: #888"> Features </h2>
+       <p style="float: right; font-size: 16pt; text-align: center; width: 100%;">
+         <img src="img/coupling_case5.jpg" style="width: 100%">
+       </br>low-poly realtime rendering &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       high-poly realtime rendering
+</p>
+</section>
+
+<section data-background="white">
+
+     <h2 style="color: #888">Features</h2>
+       <p style="float: right; font-size: 16pt; text-align: center; width: 100%;">
+         <img src="img/aesthetics.jpg" style="width: 100%">
+         realtime photorealistic rendering
+</p>
+</section>
+
+
+<section data-background="white">
+  <h3> Immersion </h3>
+   <video data-autoplay class="stretch"  src="https://github.com/ncsu-geoforall-lab/tangible-landscape-talk/raw/master/video/immersion.mp4" frameborder="0" loop="loop"></iframe>
+
+<aside class="notes">
+  Using a virtual reality addon, blender viewport is continuously displayed in both viewport and headmounted display,
+  so users can pick up the headset and get immersed in their prefered views.
+
+</section>
+
+
+
+<!-- <section data-background="white">
+
+     <h2 style="color: #888">Software architecture</h2>
+       <p style="float: left; font-size: 20pt; text-align: center; width: 80%; margin-right: .5%; margin-bottom: 0.5em;">
+         <img src="img/Coupling_diagram.jpg" style="width: 100%">
+
+</section> -->
+
+
+<!-- <section data-background="white">
+
+     <h2 style="color: #888">Realism</h2>
+       <p style="float: center; font-size: 16pt; margin-left: 20%; text-align: center; width: 60%;">
+         <img src="img/non-realistic.jpg">
+        realtime non-photo realistic rendering
+</p>
+</section>
+<section data-background="white">
+
+     <h2 style="color: #888"></h2>
+<ul>
+    <video data-autoplay src="img/immersion.mp4" frameborder="0" loop="loop"></iframe>
+</ul>
+
+      <p><small>Immersion</small><p>
+
+</section> -->
+
+<!-- <section>
+<h2 style="color: #888">
+    Education</h2>
+    <p style="float: left; font-size: 16pt; text-align: center; width: 49%;">
+<img  src="img/collaboration2.JPG">
+GAPS project K-12
+<p style="float: right; font-size: 16pt; text-align: center; width: 48.5%;">
+<img src="img/Hero_ppl.png">
+Graduate course: Spatial thinking
+</section> -->
+
+<!-- Serious gaming with Tangible Landscape: Coastal -->
+
+<!-- <section>
+<h2 style="color: #888">Serious games: coastal flooding</h2>
+<img width="32%" src="img/tl_coastal_1.png">
+<img width="32%" src="img/tl_coastal_2.png">
+<img width="32%" src="img/tl_coastal_4.png">
+<p>Save houses from coastal flooding by building coastal defenses</p>
+<p style="font-size:0.75em">Structured problem-solving with rules, challenging objectives, and scoring</p>
+<aside class="notes">
+    Recently there has been a lot of excitement about serious games and how we can use them to engage public in science. We thought Tangible Landscape would be a great tool for serious gaming, so let’s look at a coastal flooding game. We prepared this game for a public event and people playing the game were trying to protect the homes on the coast when a foredune is breached during a storm surge. With limited sand budget they tried different ways of building barriers and they learned pretty quickly that a breach in one place can cause flooding of houses which are far away from the breach.
+</aside>
+</section> -->
+
+<!--
+<section>
+ <h2 style="color: #888"> Viewscape : A tool for quantitative design research in VR environment</h2>
+ <img src="img/IMG_9594.jpg" style="width: 100%">
+  <p><small>Code and instructions available  at </i> <a href="https://github.com/ptabriz/Immersive_Virtual_environment_experiment">Github page</a></small></p>
+ <p><small> Powered by <i class="fa fa-creative-commons" aria-hidden="true"></i> <a href="http://www.worldviz.com/vizard-virtual-reality-software">Worldviz</a></small></p>
+
+</section> -->
+
+<!-- </section> -->
+
+
+<!-- <section>
+ <h2 style="color: #888"> Human response data</h2>
+        <video data-autoplay src="img/video_restorativeness.mp4" frameborder="0" width = "45%"></video>
+        <video data-autoplay src="img/Video_farmscapes.mp4" frameborder="0" width = "45%"></video>
+        <table width="100%">
+                <col width="50%">
+                <col width="50%">
+                <tr>
+                    <td style="vertical-align: middle; text-align:center; border-bottom: 0px; padding: 0;">On-screen Survey
+                    <td style="vertical-align: middle; text-align:center; border-bottom: 0px; padding: 0;">Feature selection
+                </tr>
+              </table>
+</section>
+
+<section>
+ <h2 style="color: #888"> Head-tracking </h2>
+   <p style="float: left; font-size: 20pt; text-align: center; width:80%; margin-left: 10%; ">
+     <img src="img/head_tracking.jpg" style="width: 100%">
+</section>
+
+<section>
+ <h2 style="color: #888"> Head-tracking </h2>
+     <img src="img/points.jpg" style="width: 100%"></img>
+     <p style="font-size: 16pt;">Points mapped onto the VR image </p>
+     <img src="img/heatmap.jpg" style="width: 100%"></img>
+     <p style="font-size: 16pt;">Heatmaps of the feature preference (50 participants) </p>
+</section> -->
+
+<!-- <section data-background="white">
+
+     <h2 style="color: #888">Features</h2>
+     <ul>
+         <li> Experiment design: between and whithin subject
+         <li> Stumuli type: 360 Image, 360 Video, 3D simulated env
+         <li> Number of stimuli and presentation method: randomized, ordered
+         <li> Warmup scenes
+         <li> Presentation duration
+         <li> Survey items and randomization
+      </ul>
+</p>
+</section> -->
+
+<section data-background="https://github.com/ptabriz/presentation_viewscape/raw/master/img/anim.gif" data-background-size="200" >
+<br/><br/>
+<br/><br/><br/>
+
+<h4 class="shadow">Modeling human experience of landscape</h4>
+
+</section>
+
+<!-- <section data-background="img/overview.jpg" data-background-size="90%">
+
+
+    <aside class="notes">
+
+    This scheme provides an overview to my developed integrated approach combining viewscape analysis and human perceptions.
+    In the objective side, I prepare high-resolution surfaces,
+    then I perform viewscape analysis to compute metrics related to composition and configuration of visible landscape (called viewscape).
+
+    On the subjective analysis side, I conduct a survey of photorealstic IVEs based on panoramas that are representative of site's visual charactristics.
+
+    I statistically compare the viewscape metrics and perceptions to draw relationhips between landscape structure and patten and human experiences.
+    These relationships can then be used to estimate experience of other viewpoints and generate a predictive map of experiential quality.
+
+    </aside>
+</section> -->
+
+
+<section data-background="white">
+<h3> Approach </h3>
+<br>
+<table style= "font-size:18pt"  class= "no_bottom_border" width="105%">
+  <col width = "33%">
+  <col width = "33%">
+  <col width = "33%">
+
+  <tr class="center_text">
+      <td style="border-bottom: 1px solid black; border-top: 1px solid black"> Light detection and ranging <br>(lidar)</td>
+      <td style="border-bottom: 1px solid black; border-top: 1px solid black"> Viewscape analysis <br><br></td>
+      <td style="border-bottom: 1px solid black; border-top: 1px solid black"> Photorealistic Immersive virtual enviroments (IVEs)</td>
+  </tr>
+
+  <tr>
+    <td><img src="img/lidar_points.PNG" style="width:100%; border:1px solid black"></td>
+    <td><img src="img/viewscape.PNG" style="width:100%; border:1px solid black"></td>
+    <td><img src="img/oculus_2.jpg" style="width:100%; border:1px solid black"></td>
+
+  </tr>
+
+  </tr>
+</table>
+
+<aside class="notes">
+  We can then take panoramic photos of the same vantage point and use immersive virtual envrionments or IVEs to turn them into immersive experiences.
+  Now since both viewscape analyis and IVEs consider the 360 field of view,
+  they are an ideal match for linking the objective and subjective evaluation of the landscape,
+  as oppsoed to commonly used images that have limited field of view.
+</aside>
+</section>
+
+<section data-background= "white">
+ <!-- <h2 style="color: #888"> Quantifying Viewscapes </h2> -->
+   <p style="float: left; font-size: 18pt; text-align: center; width: 100%; margin-right: .5%; margin-bottom: 0.5em;">
+     <img src="img/lidar2.png" style="width: 100%">
+       0.5m Digital surface model (DSM)
+</section>
+
+<section>
+  <h3>Viewscape maps</h3>
+  <br><br>
+
+  <table class="condensed no_bottom_border" width= "110%">
+    <col width="20.3%">
+    <col width="20%">
+    <col width="20.7%">
+    <col width="20.3%">
+
+  <tr class = "center_text">
+    <td><img src="img/viewshed_1.jpg"></td>
+    <td><img src="img/viewshed_2.jpg"></td>
+    <td><img src="img/viewshed_3.jpg"></td>
+    <td><img src="img/viewshed_4.jpg"></td>
+  </tr>
+
+  <tr class = "center_text" style="font-size:14pt">
+  <td> Binary viewscape </td>
+  <td> Landcover viewscape </td>
+  <td> Horizontal viewscape</td>
+  <td> Vertical viewscape </td>
+  </tr>
+
+</table>
+
+<section data-background="white">
+      <h2>Composition metrics</h2>
+
+      <table class= "condensed" width="90%" style = "font-size:.6em">
+            <col width="10%">
+            <col width="15%">
+            <col width="15%">
+            <col width="15%">
+            <col width="15%">
+            <!-- <tr style = "font-size:.7em">
+              <th style="text-align:center"> Metric </th>
+              <th style="text-align:center"> Viewpoint 1 </th>
+              <th style="text-align:center"> Viewpoint 2 </th>
+              <th style="text-align:center"> Viewpoint 3 </th>
+            </tr> -->
+            <tr class= "border_bottom_solid border_top">
+              <td style="text-align:left; vertical-align: middle"> Areal photo <br><br><br><br><br><br><br> Viewscape </td>
+              <td><img src="https://github.com/ptabriz/presentation_viewscape/raw/master/img/natural.png" style="width: 100%"></td>
+              <td><img src="https://github.com/ptabriz/presentation_viewscape/raw/master/img/natural2.png" style="width: 100%"></td>
+              <td><img src="https://github.com/ptabriz/presentation_viewscape/raw/master/img/natural3.png" style="width: 100%"></td>
+              <td><img src="https://github.com/ptabriz/presentation_viewscape/raw/master/img/natural4.png" style="width: 100%"></td>
+            </tr>
+
+
+            <tr class = "center_text">
+
+            <td style = "text-align:left"> Herbaceous </td>
+            <td> 0 %  </td>
+            <td> 0 %  </td>
+            <td> 0 %  </td>
+            <td><highlight class="dark"> 65 % </highlight> </td>
+          </tr>
+
+          <tr class = "center_text">
+
+            <td style = "text-align:left"> Mixed</td>
+            <td> 12 %  </td>
+            <td> 0 %  </td>
+            <td> 5 %  </td>
+            <td> <highlight class = "dark"> 12 %  </td>
+          </tr>
+
+          <tr class = "center_text">
+
+            <td style = "text-align:left"> Evergreen</td>
+            <td> 0 %  </td>
+            <td> 0 %  </td>
+            <td> 4 %  </td>
+            <td>8 % </td>
+          </tr>
+
+          <tr class = "center_text">
+
+            <td style = "text-align:left"> Deciduous </td>
+            <td> 0 %  </td>
+            <td> <highlight class = "dark"> 18 %  </highlight> </td>
+            <td> <highlight class = "dark"> 38 % </highlight> </td>
+            <td> 15 %  </td>
+          </tr>
+
+
+          <tr class = "center_text">
+
+            <td style = "text-align:left"> Grassland </td>
+            <td> 17 %  </td>
+            <td> <highlight class = "dark"> 38 % </highlight </td>
+            <td> 32 %  </td>
+            <td> 0 %  </td>
+          </tr>
+
+          <tr class = "center_text">
+
+            <td style = "text-align:left"> Paved roads </td>
+            <td> <highlight class = "dark"> 48 %  </highlight</td>
+            <td> 27 %  </td>
+            <td> 14 %  </td>
+            <td> 0 %  </td>
+          </tr>
+
+          <tr class = "center_text">
+
+            <td style = "text-align:left"> Buildings </td>
+            <td> <highlight class = "dark"> 25 %  </td>
+            <td> 17 %  </td>
+            <td> 5 %  </td>
+            <td> 0 %  </td>
+          </tr>
+
+        </table>
+
+
+        <aside class="notes">
+        I pulled out the results for four viewpoints to show how the composition metrics charactrize the viewscapes.
+        You can see the first viewscape is charactrized by dominant presence of Paved roads and buildings.
+        The second and third viewscapes have a in general a good mixture of landcover types.
+        The forth viewscapes is mostly charactrized by presense of natural ground cover and mixed forest.
+
+        </aside>
+
+</section>
+
+<section data-background="white">
+    <h2>Configuration metrics</h2>
+
+      <table class= "condensed" width="100%" style = "font-size:.5em">
+          <col width="18%">
+          <col width="17%">
+          <col width="17%">
+          <col width="17%">
+
+            <!-- <tr style = "font-size:.7em">
+              <th style="text-align:center"> Metric </th>
+              <th style="text-align:center"> Viewpoint 1 </th>
+              <th style="text-align:center"> Viewpoint 2 </th>
+              <th style="text-align:center"> Viewpoint 3 </th>
+            </tr> -->
+          <tr class = "border_bottom_solid border_top no_space" style = "font-size:1.2em">
+            <td style="text-align:left; vertical-align: middle"> Viewscape image </td>
+            <td><img src="img/ENV_210.png" style="width: 80%"></td>
+            <td><img src="img/ENV_196.png" style="width: 80%"></td>
+            <td><img src="img/ENV_194.png" style="width: 80%"></td>
+
+
+          <tr class= "border_bottom_solid no_space" style = "font-size:1.2em">
+            <td style="text-align:left; vertical-align: middle"> Viewscape map</td>
+            <td><img src="https://github.com/ptabriz/presentation_viewscape/raw/master/img/complexity_210.PNG" style="width:80%"></td>
+            <td><img src="https://github.com/ptabriz/presentation_viewscape/raw/master/img/complexity_196.png" style="width: 80%"></td>
+            <td><img src="https://github.com/ptabriz/presentation_viewscape/raw/master/img/complexity_194.png" style="width: 80%"></td>
+
+          </tr>
+
+          <tr class = "center_text">
+
+            <td style = "text-align:left"> Extent (m<sup>2</sup>) </td>
+            <td><highlight class="dark"> 185,000 </highlight></td>
+            <td> <highlight class="dark"> 1072 </highlight></td>
+            <td> 50,710 </td>
+
+          </tr>
+
+          <!-- <tr class = "center_text">
+            <td style = "text-align:left"> releif (m)</td>
+
+              <td>7.12</td>
+              <td>2.11</td>
+              <td>4.76</td>
+
+          </tr> -->
+
+          <tr class = "center_text">
+            <td style = "text-align:left"> Depth (m) </td>
+              <td>538</td>
+              <td>305</td>
+              <td>1293</td>
+
+          </tr>
+
+          <tr class = "center_text">
+            <td style = "text-align:left"> SDI (Shannon Diversity index) </td>
+              <td>1.11</td>
+              <td>1.49</td>
+              <td><highlight class="dark">1.51</highlight></td>
+
+          </tr>
+
+          <tr class = "center_text">
+            <td style = "text-align:left"> MSI (Mean Shape Index) </td>
+              <td>39.1</td>
+              <td>19.7</td>
+              <td><highlight class="dark">63.48</highlight></td>
+
+          </tr>
+
+
+          <tr class = "center_text">
+            <td style = "text-align:left"> Nump (Number of Patches)</td>
+              <td>3700</td>
+              <td>642</td>
+              <td><highlight class="dark">4168</highlight></td>
+          </tr>
+
+          <tr class = "center_text">
+            <td style = "text-align:left"> Vdepth (m)</td>
+              <td>17.3</td>
+              <td>5.29</td>
+              <td><highlight class="dark">29.90</highlight></td>
+
+          </tr>
+
+      </table>
+
+              <aside class="notes">
+                  The same was done for configuration metrics.
+                  --As you can see in the Extent charactrize large and small viewscapes shown in the first two maps.
+                  In the third map Shannon diversity index, Mean shape index and Patch number charactrize the high pattern and shape variability of the viewscape.
+
+              </aside>
+</section>
+
+<section data-background="https://github.com/ptabriz/presentation_viewscape/raw/master/img/ive_sample.png" data-background-size="65%">
+          <h3 style= "margin-bottom:84%">VR survey</h3>
+          <aside class="notes">
+
+          In the next step, I selected a set of locations with viewscape values corresponding to values of all other viewpoints in the site.
+          From those, I selected a subsample that was dispersed enough to spatially represent the study area, which resulted in 24 viewpoints.
+
+
+
+          </aside>
+</section>
+
+<section data-background="img/panoramas_2.jpg" data-background-size="73%">
+  <p style="margin-top:60%; font-size:16pt"> Example of panoramic photos (Feb 2016) </p>
+      <aside class="notes">
+      At each location, I captured a 360 panoramic photo that can be viewed in VR headsets.
+      I captured all the images in Winter season to be consistent with the lidar data.
+      These example panoramas show how the selected viewpoints represent diffrent envrionmetns whithin the site.
+      </aside>
+</section>
+
+
+
+<section data-background="white">
+   <h3> Survey procedure</h3>
+
+      <img src="img/arrow_timline.jpg" style="width: 100%; margin-bottom: 0px">
+   <!-- <ul>
+     <li> Nature attitude survey (1 month prior to lab experiment)
+     <li> Briefing and calibration ~ 5 min
+     <li> Warmup (2 scenes, presence, realism) ~ 5 min
+     <li> Fatigue scenario - 2 min
+     <li> 12 trials > 2 min recess > 12 trials ~ 25 min
+     <li> Demographics (age, race, gender, major) and familiarity ~ 5 min
+   </ul> -->
+
+  <video data-autoplay class="stretch"  src="https://github.com/ptabriz/presentation_viewscape/raw/master/img/video_restorativeness.mp4" frameborder="5" width="50%" loop="loop" style="width: 100%; border: 2px dashed darkgrey; margin-top: 0px">
+</video>
+
+  <aside class="notes">
+
+    To briefly describe the experiment procedure, upon arrival, participants were briefed and got familiar with the IVE equipment.
+    To set the same context for all participants we asked them to imagine themselves walking in the presented environments after
+    a long and tiring day. Then, each participant experienced a random presentation of the 24 IVEs and rated each of the
+    scenes on the perception measures using joystick. There was a a 2 minutes recess period in the middle.
+
+    <!-- The IVE representation and survey collection procedure was implemented as a python script in WorldViz VR development software.
+    The entire study took around 55 minutes. -->
+
+  </aside>
+  </section>
+
+
+  <section data-background="white">
+    <h3>Restoration potential model</h3>
+
+  <table style= "font-size: 16pt" width = "100%">
+
+    <col width = "15%">
+    <col width = "20%">
+    <col width = "20%">
+    <col width = "20%">
+
+    <tr><th>Variable</th><th>coefficient</th><th>&Beta; coefficient</th><th>Student t</th><th>sig</th></tr>
+    <tr><td style="background-color: #DAECD8">Extent</td><td>&nbsp1.90E-05</td><td>&nbsp0.39</td><td>11.07</td><td>***</td></tr>
+    <tr><td style="background-color: #FFEAE2">Relief</td><td>-1.20E-01</td><td>-0.12</td><td>16.17</td><td>***</td></tr>
+    <tr><td style="background-color: #FFEAE2">Depth</td><td>-1.27E-03</td><td>-0.34</td><td>-6.06</td><td>***</td></tr>
+    <tr><td style="background-color: #FFEAE2">Skyline</td><td>&nbsp1.08E-01</td><td>&nbsp0.12</td><td>-17.10</td><td>***</td></tr>
+    <tr><td style="background-color: #DAECD8">Vdepth_var</td><td>&nbsp7.18E-02</td><td>&nbsp0.27</td><td>&nbsp6.25</td><td>***</td></tr>
+    <tr><td style="background-color: #FFEAE2">SDI</td><td>-3.82E-01</td><td>-0.14</td><td>-1.92</td><td>**</td></tr>
+    <tr><td style="background-color: #FFEAE2">Building</td><td>-5.41E-02</td><td>-0.37</td><td>-5.38</td><td>***</td></tr>
+    <tr><td style="background-color: #FFEAE2">Paved</td><td>-6.14E-03</td><td>-0.03</td><td>-1.53</td><td>*</td></tr>
+    <tr><td style="background-color: #DAECD8">Mixed</td><td>&nbsp1.07E-01</td><td>&nbsp0.66</td><td>&nbsp23.97</td><td>***</td></tr>
+    <tr><td style="background-color: #DAECD8">Deciduous</td><td>&nbsp8.13E-02</td><td>&nbsp0.32</td><td>&nbsp16.47</td><td>***</td></tr>
+    <tr><td style="background-color: #DAECD8">Herbaceous</td><td>&nbsp4.44E-02</td><td>&nbsp0.27</td><td>&nbsp20.30</td><td>***</td></tr>
+    </table>
+
+  <p style="float: center; font-size: 14pt; text-align: left; width: 100%; margin-top: 0.1em;">
+  Generalized linear models perceived restoration potential. Best model fit was determined by step-wise regression.<br>*p<0.05, ** p <0.01, *** p <0.001 <br>
+   <font style="background-color: #DAECD8">Positive association </font>&nbsp;<font style="background-color: #FFEAE2">Negative association </font>
+  <br>Vdepth_var = viewdepth variation, Nump = patch number, ED = edge density, MSI= mean shape index,
+  SDI= shannon diversity index.
+  </p>
+
+  <aside class="notes">
+  Looking closer at the restoration potential model, Extent showed the highest positive impact indicating that large viewscapes were were perceived as highly restorative. --
+  Also, presence of lush vegetation such as natural ground cover and mixed forest positively impacted perception of restoration potential.
+  Intrestingly, presence of decidous trees greatly increased restorativeness likelihood of viewscapes, although they didnt have any foliage in the time of my study. --
+  I expect that the majestic appearance of the willow oaks and their arrangement have played a part in particpants positive reaction.
+
+  The negative influence of vertical variability and pattern complexity is indicative that, controlling for all variables, participants found coherent viewscapes as more restorative.
+
+  </aside>
+
+
+  </section>
+
+
+  <section data-background="white">
+    <h3>Restoration potential model</h3>
+
+  <table style= "font-size: 16pt" width = "100%">
+
+    <col width = "15%">
+    <col width = "20%">
+    <col width = "20%">
+    <col width = "20%">
+
+    <tr><th>Variable</th><th>coefficient</th><th>&Beta; coefficient</th><th>Student t</th><th>sig</th></tr>
+    <tr><td style="background-color: #DAECD8">Extent</td><td>&nbsp1.90E-05</td><td>&nbsp0.39</td><td>11.07</td><td>***</td></tr>
+    <tr><td style="background-color: #FFEAE2">Relief</td><td>-1.20E-01</td><td>-0.12</td><td>16.17</td><td>***</td></tr>
+    <tr><td style="background-color: #FFEAE2">Depth</td><td>-1.27E-03</td><td>-0.34</td><td>-6.06</td><td>***</td></tr>
+    <tr><td style="background-color: #FFEAE2">Skyline</td><td>&nbsp1.08E-01</td><td>&nbsp0.12</td><td>-17.10</td><td>***</td></tr>
+    <tr><td style="background-color: #DAECD8">Vdepth_var</td><td>&nbsp7.18E-02</td><td>&nbsp0.27</td><td>&nbsp6.25</td><td>***</td></tr>
+    <tr><td style="background-color: #FFEAE2">SDI</td><td>-3.82E-01</td><td>-0.14</td><td>-1.92</td><td>**</td></tr>
+    <tr><td style="background-color: #FFEAE2">Building</td><td>-5.41E-02</td><td>-0.37</td><td>-5.38</td><td>***</td></tr>
+    <tr><td style="background-color: #FFEAE2">Paved</td><td>-6.14E-03</td><td>-0.03</td><td>-1.53</td><td>*</td></tr>
+    <tr><td style="background-color: #DAECD8">Mixed</td><td>&nbsp1.07E-01</td><td>&nbsp0.66</td><td>&nbsp23.97</td><td>***</td></tr>
+    <tr><td style="background-color: #DAECD8">Deciduous</td><td>&nbsp8.13E-02</td><td>&nbsp0.32</td><td>&nbsp16.47</td><td>***</td></tr>
+    <tr><td style="background-color: #DAECD8">Herbaceous</td><td>&nbsp4.44E-02</td><td>&nbsp0.27</td><td>&nbsp20.30</td><td>***</td></tr>
+    </table>
+
+  <p style="float: center; font-size: 14pt; text-align: left; width: 100%; margin-top: 0.1em;">
+  Generalized linear models perceived restoration potential. Best model fit was determined by step-wise regression.<br>*p<0.05, ** p <0.01, *** p <0.001 <br>
+   <font style="background-color: #DAECD8">Positive association </font>&nbsp;<font style="background-color: #FFEAE2">Negative association </font>
+  <br>Vdepth_var = viewdepth variation, Nump = patch number, ED = edge density, MSI= mean shape index,
+  SDI= shannon diversity index.
+  </p>
+
+  <aside class="notes">
+  Looking closer at the restoration potential model, Extent showed the highest positive impact indicating that large viewscapes were were perceived as highly restorative. --
+  Also, presence of lush vegetation such as natural ground cover and mixed forest positively impacted perception of restoration potential.
+  Intrestingly, presence of decidous trees greatly increased restorativeness likelihood of viewscapes, although they didnt have any foliage in the time of my study. --
+  I expect that the majestic appearance of the willow oaks and their arrangement have played a part in particpants positive reaction.
+
+  The negative influence of vertical variability and pattern complexity is indicative that, controlling for all variables, participants found coherent viewscapes as more restorative.
+
+  </aside>
+
+
+  </section>
+
+
+  <section data-background="white">
+                <h2>Perceived restoration map</h2>
+
+                  <table width = "100%" class= "condensed">
+                      <tr>
+                            <td style="text-align:center"><img src="img/mapping2.jpg" style="width: 54%"></td>
+                      </tr>
+                      <tr>
+                            <td style="vertical-align:middle; text-align:left; font-size:14px; border-bottom: 0px">
+
+                            \[Y= 1.90\mathrm{e}{-5}(Extent) -1.20\mathrm{e}{-1}(Relief) -
+                            3.82\mathrm{e}{-1}(SDI) \quad + \quad ... \quad- 1.44\mathrm{e}{-2}(Evergreen) +
+                            4.44\mathrm{e}{-2}(Herbaceous) \]
+                          </td>
+                      </tr>
+                  </table>
+
+                  <aside class="notes">
+               To achieve the second aim of the study, which was to acquire a spatial model of restoration potential.
+               I applied the coefficients derived from viewscape model to all the other viewpoints in the study area.
+               The resulting predictive map indicates for the lack of a better term hotspots for higher restoration likelihood and coldspots which are less
+               likely to be perceived as restorative.
+
+               <!-- The greenway, the natural, unpaved areas and
+               rolling hills with scattered willow oaks were among those with highest restoration potential,
+               whereas densely built areas showed the least likelihood of restoration. -->
+                  </aside>
+</section>
+
+
+
+
+<!-- <section data-background="white">
+<h2> Latest projects (prototypes) </h2>
+<ul>
+<li><a href="https://ncsu-landscape-dynamics.github.io/PoPS_frontend/#">Visualization dashboard for PoPs </a>
+<li><a href="https://www.youtube.com/watch?v=GVkFMAwcFyA&feature=youtu.be">Game design for teaching mathematics to children with learning differences </a>
+</section> -->
+
+<section data-background="white">
+
+<h2 style="color: #888">Resources</h2>
+<ul>
+
+<li>Tangible landscape: <a href="https://github.com/ptabriz/3D_immersion_TL"> Github</a> |
+<a href="https://tangible-landscape.github.io"> Website</a> |
+<a href="https://github.com/tangible-landscape/grass-tangible-landscape/wiki">Wiki</a> </li>
+<li>VRscape: <a href="https://github.com/ptabriz/Immersive_Virtual_environment_experiment"> Github</a>
+
+
+<li>Papers:
+  <ul>
+    <li><a href="https://www.researchgate.net/publication/318846696_Tangible_Immersion_for_Ecological_Design">
+    Tangible Immersion for ecological design </a> Proceedings of ACADIA 2017, MIT
+  Media Lab, Cambridge, MA.</li>
+      <li><a href="https://www.sciencedirect.com/science/article/pii/S0272494418300124">Experimental research with VR</a>. Journal of envioronmental psychology.
+<li><a href="https://www.researchgate.net/publication/309458110_Immersive_Tangible_Geospatial_Modeling">
+    Immersive Tangible Geospatial Modeling.</a> Proceedings of ACM SIGSPATIAL 2016, San fransisco, CA.</li>
+  <li><a href="https://www.researchgate.net/profile/Brendan_Harmon2/publication/322355724_Tangible_Landscape_A_Hands-on_Method_for_Teaching_Terrain_Analysis/links/5a753deb45851541ce566c0c/Tangible-Landscape-A-Hands-on-Method-for-Teaching-Terrain-Analysis.pdf">
+  Tangible Landscape: A Hands-on Method for Teaching Terrain Analysis</a> Proccedings of
+  ACM SIGCHI. 2018, Montreal, CA.</p>
+</ul>
+<li>Books:
+  <ul>
+    <li><a href="http://www.springer.com/us/book/9783319893020"><em>Tangible Modeling with Open Source GIS 2nd ed</em></a></li>
+  </ul>
+    <li><a href="https://issuu.com/payamtabrizian/docs/portofolio_optimized3_6b38adb4d1cde4"> Design portfolio </a>
+    <li><a href="https://github.com/ptabriz/geodesign_with_blender"> Online tutorials </a>
+</ul>
+
+</section>
+
+<!--
+<section data-background="img/anim.gif" data-background-size="95%" >
+  <h3 class = "shadow" >
+</section>
+
+<section data-background-video = "img/case_study_video.mp4" frameborder="0">
+  <h3 class="shadow"> </h3>
+   <!--<video data-autoplay class="stretch"  src="video/case_study_video.mp4" frameborder="0"></iframe>
+
+</section>  -->
+
+</div>  <!-- slides -->
+
+</div>  <!-- reveal -->
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+
+    // Full list of configuration options available here:
+    // https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Display a presentation progress bar
+        progress: true,
+
+        center: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+         width: 1060,
+        // height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.05,  // increase?
+
+        // Bounds for smallest/largest possible scale to apply to content
+        minScale: 0.5,
+        maxScale: 5.0,
+
+        theme: Reveal.getQueryHash().theme,  // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'none', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Push each slide change to the browser history
+        history: true,
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // Hides the address bar on mobile devices
+        hideAddressBar: true,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition speed
+        transitionSpeed: 'default', // default/fast/slow
+
+        // Transition style for full page slide backgrounds
+        backgroundTransition: 'none', // default/none/slide/concave/convex/zoom
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Parallax background image
+        //parallaxBackgroundImage: '', // e.g. "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'"
+
+        // Parallax background size
+        //parallaxBackgroundSize: '' // CSS syntax, e.g. "2100px 900px"
+        chalkboard: {
+    // optionally load pre-recorded chalkboard drawing from file
+        src: "chalkboard.json",
+            color: [ 'rgb(255, 38, 0)', 'rgba(255,255,255,0.5)' ]
+      },
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+            { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+            { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+            { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+            { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+            { src: 'plugin/math/math.js', async: true },
+            { src: 'plugin/chalkboard/chalkboard.js' }
+        ],
+        keyboard: {
+          67: function() { RevealChalkboard.toggleNotesCanvas() },	// toggle notes canvas when 'c' is pressed
+          66: function() { RevealChalkboard.toggleChalkboard() },	// toggle chalkboard when 'b' is pressed
+          46: function() { RevealChalkboard.clear() },	// clear chalkboard when 'DEL' is pressed
+           8: function() { RevealChalkboard.reset() },	// reset chalkboard data on current slide when 'BACKSPACE' is pressed
+          68: function() { RevealChalkboard.download() },	// downlad recorded chalkboard drawing when 'd' is pressed
+      },
+    });
+
+</script>
+
+</body>
+</html>
